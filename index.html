@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Testes</title>        
+        <script src="library.js"></script>
+        <script src="form.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <span>Only numbers: </span><input type="text" onkeypress="formClass.input.acceptNumbers(false)"><br>
+        <span>Only numbers (inc. Negatives): </span><input type="text" onkeypress="formClass.input.acceptNumbers(true)"><br>
+        <span>Only chars: </span><input type="text" onkeypress="formClass.input.acceptChars(false)"><br>
+        <span>Only chars (inc. Special Chars): </span><input type="text" onkeypress="formClass.input.acceptChars(true)"><br>
+        <span>Currency: </span><input type="text" onkeypress="formClass.input.acceptNumbers(true)" onkeyup="formClass.input.format(this)"><br>
+    </body>
+</html>
