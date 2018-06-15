@@ -5,9 +5,35 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <span>Only numbers: </span><input type="text" style="text-align: right" onkeypress="sham.form.input.acceptNumber()" onkeyup="sham.form.input.formatNumber()"><br>
-        <span>Only numbers (inc. Negatives): </span><input type="text" style="text-align: right" onkeypress="sham.form.input.acceptNumber(true)" onkeyup="sham.form.input.formatNumber()" ><br>
-        <span>Only chars: </span><input type="text"><br>
-        <span>Only chars (inc. Special Chars): </span><input type="text"><br>
+        <table>
+            <tr>
+                <td>Numbers:</td>
+                <td><input type="text" style="text-align: right" onkeypress="sham.form.input.acceptNumber()" onkeyup="sham.form.input.formatNumber()"></td>
+            </tr>
+            <tr>
+                <td>Numbers (inc. Negatives):</td>
+                <td><input type="text" style="text-align: right" onkeypress="sham.form.input.acceptNumber(true)" onkeyup="sham.form.input.formatNumber()" ></td>
+            </tr>
+            <tr>
+                <td>Decimal:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Decimal (inc. Negatives): </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Names:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Emails:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Dates:</td>
+                <td><input type="text"></td>
+            </tr>      
+        </table>
     </body>
-</html>
+</html> 
